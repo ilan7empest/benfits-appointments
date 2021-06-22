@@ -2,4 +2,6 @@
 
 clone Repo
 
+### `npm i`
+
 ### `npm start`
