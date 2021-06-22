@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Form from './form/form';
 import Calendar from './calander/calendar';
 
-import './app.css';
+import './App.css';
 
 import { Events } from './mockdate';
 
