@@ -1,5 +1,5 @@
 # Getting Started with Benefits Appointments
 
-clone Reop
+clone Repo
 
 ### `npm start`
