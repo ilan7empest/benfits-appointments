@@ -1,0 +1,36 @@
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  border-top: 1px solid var(--light-gray);
+}
+.day-item {
+  padding: 10px;
+  min-height: 100px;
+  border-bottom: 1px solid var(--light-gray);
+  border-right: 1px solid var(--light-gray);
+  font-size: 0.8rem;
+}
+
+.day-item__header {
+  margin-bottom: 15px;
+  text-align: center;
+}
+.day-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.day-item ul li {
+  margin-bottom: 10px;
+}
+
+.day-item__time_event:after {
+  content: '-';
+  padding: 0;
+  margin: 0 10px;
+}
+.day-item__title_event {
+  font-weight: bold;
+  color: var(--light-blue);
+}
